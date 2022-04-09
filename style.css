@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: hsl(300, 43%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+h1 {
+    text-transform: capitalize;
+    font-size: 2em;
+    color: hsl(300, 80%, 52%);
+}
+#btn {
+    padding: .5em 1.5em;
+    background-color: hsl(300, 80%, 52%);
+    border: none;
+    color: hsl(300, 43%, 90%);
+    font-size: 1em;
+    font-weight: 500;
+}
